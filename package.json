@@ -1,0 +1,17 @@
+{
+  "name": "books-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+  },
+  "dependencies": {
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
+  },
+  "repository": "git@github.com:Oskar-Michal-Rykowski/books-api.git",
+  "author": "Oskar Rykowski <oskar.michal.rykowski@gmail.com>"
+}
